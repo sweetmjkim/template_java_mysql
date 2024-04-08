@@ -18,6 +18,6 @@ public class AdditionsMain {
         AdditionsSub subs = new AdditionsSub();
         int intAnswer = subs.addAndPrintResult();
         System.out.println("최종 결과 : " + intAnswer);
-        // subs.scannerClose();
+        subs.scannerClose();        // Scanner 객체를 닫는 메서드
     }    
 }

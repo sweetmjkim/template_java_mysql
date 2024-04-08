@@ -38,8 +38,14 @@ public class AdditionsSub {
         return intAnswer;
     }
 
-    public static void main(String[] args) {
-        AdditionsSub additionsSub = new AdditionsSub();
-        additionsSub.addAndPrintResult();
+    // Scanner 객체를 닫는 메서드를 안쓴다면 밑에 코드 사용
+    // public static void main(String[] args) {
+    //     AdditionsSub additionsSub = new AdditionsSub();
+    //     additionsSub.addAndPrintResult();
+
+    public void scannerClose() { // Scanner 객체를 닫는 메서드
+        if(scanner != null) {
+            scanner.close();
+        }
     }
 }
