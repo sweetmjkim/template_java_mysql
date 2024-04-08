@@ -1,3 +1,5 @@
+// ref : https://github.com/sweetmjkim/study_javas/blob/main/src/quests/Additions.java
+
 // 값이 미리 입력된 경우
 // package quests;
 
